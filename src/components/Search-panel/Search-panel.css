@@ -1,0 +1,16 @@
+/* Search-panel start */
+.search-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .search-panel {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+/* Search-panel end */

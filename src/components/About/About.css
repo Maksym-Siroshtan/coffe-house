@@ -1,0 +1,47 @@
+.about {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.about__img {
+  margin-right: 80px;
+}
+
+.about__content {
+  text-align: center;
+}
+
+.about__subtitle {
+  margin-bottom: 20px;
+}
+
+.about__logo {
+  margin-bottom: 26px;
+}
+
+.about__paragraphs_ta-left {
+  text-align: left;
+}
+
+.about__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .about__img {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .about {
+    flex-wrap: wrap;
+  }
+  .about__img {
+    margin-right: 0;
+  }
+}

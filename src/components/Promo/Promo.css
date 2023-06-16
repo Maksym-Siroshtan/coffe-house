@@ -1,0 +1,20 @@
+/* Our Coffe Promo start */
+.promo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 260px;
+  background-size: cover;
+  margin-bottom: 70px;
+}
+
+.promo_coffe {
+  background: url('../../img/coffe-bg.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.promo_goods {
+  background: url('../../img/goods-bg.jpg') center no-repeat;
+  background-size: cover;
+}
+/* Our Coffe Promo end */

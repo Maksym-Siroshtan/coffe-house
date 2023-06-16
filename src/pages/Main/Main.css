@@ -1,0 +1,73 @@
+/* Promo start */
+.main__promo {
+  height: 640px;
+  text-align: center;
+  padding-top: 165px;
+  background: url('../../img/main-bg.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.main__title {
+  margin-bottom: 20px;
+}
+
+.main__logo {
+  margin-bottom: 35px;
+}
+
+@media screen and (max-width: 580px) {
+  .main__logo {
+    margin-bottom: 0;
+  }
+}
+
+.main__subtitle {
+  margin-bottom: 20px;
+}
+
+.main__link-more {
+  font-family: 'Merienda';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: transparent;
+  text-decoration: none;
+  color: #FFFFFF;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 5px 42px;
+}
+
+.main__link-more:hover {
+  background-color: rgba(0, 0, 0, .6);
+}
+/* Promo end */
+
+/* About Us start*/
+.about-us {
+  text-align: center;
+  padding: 80px 0 101px 0;
+}
+
+.about-us__title {
+  margin-bottom: 20px;
+}
+
+.about-us__logo {
+  margin-bottom: 40px;
+}
+/* About Us end*/
+
+/* Our best start */
+.our-best {
+  text-align: center;
+  padding: 80px 0 110px 0;
+  background: url('../../img/our-best-bg.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.our-best__title {
+  margin-bottom: 40px;
+}
+/* Our best end */

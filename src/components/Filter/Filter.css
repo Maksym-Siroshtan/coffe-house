@@ -1,0 +1,25 @@
+.filter__title {
+  margin-right: 35px;
+}
+
+.filter__button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, .2);
+  cursor: pointer;
+}
+
+.filter__button:hover {
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.filter__button:focus {
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.filter__button:last-child {
+  margin-right: 0;
+}

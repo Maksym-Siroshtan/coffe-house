@@ -1,0 +1,19 @@
+.card-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+@media screen and (max-width: 960px) {
+  .card-list {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-list {
+    justify-content: space-around;
+  }
+}

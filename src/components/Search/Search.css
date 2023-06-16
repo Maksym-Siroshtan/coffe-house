@@ -1,0 +1,39 @@
+.search label {
+  margin-right: 20px;
+}
+
+.search input {
+  padding: 6px 26px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, .2);
+}
+
+.search input::placeholder {
+  font-family: 'Merienda';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .search {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .search {
+    margin-right: 0;
+  }
+
+  .search label{
+    margin-right: 10px;
+  }
+
+  .search input{
+    padding: 6px;;
+  }
+}

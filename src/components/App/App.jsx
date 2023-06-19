@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import { Component } from 'react';
 import Header from '../Header/Header';
 import Main from '../../pages/Main/Main';
@@ -29,7 +29,10 @@ class App extends Component {
         {pathImg: aromisticoCoffe, description: 'AROMISTICO Coffee 1 kg', country: 'Columbia', price: '6.99$'},
         {pathImg: solimoCoffe, description: 'Solimo Coffee Beans 2 kg', country: 'Brazil', price: '10.73$'},
         {pathImg: prestoCoffe, description: 'Presto Coffee Beans 2 kg', country: 'Kenia', price: '15.99$'},
-        {pathImg: aromisticoCoffe, description: 'AROMISTICO Coffee 2 kg', country: 'Columbia', price: '8.99$'}
+        {pathImg: aromisticoCoffe, description: 'AROMISTICO Coffee 2 kg', country: 'Columbia', price: '8.99$'},
+        {pathImg: solimoCoffe, description: 'Solimo Coffee Beans 3 kg', country: 'Brazil', price: '12.73$'},
+        {pathImg: prestoCoffe, description: 'Presto Coffee Beans 3 kg', country: 'Kenia', price: '17.99$'},
+        {pathImg: aromisticoCoffe, description: 'AROMISTICO Coffee 3 kg', country: 'Columbia', price: '10.99$'}
       ],
       goodsData: [
         {pathImg: solimoCoffe, description: 'Solimo Coffee Beans 1 kg', country: 'Brazil', price: '8.73$'},
@@ -76,7 +79,7 @@ class App extends Component {
   render() {
     const visiblyData = this.onFilter(this.onSearch(this.state.coffeData, this.state.term), this.state.filter);
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="app">
           <div className="container container_relative">
             <Header />
@@ -93,7 +96,7 @@ class App extends Component {
           </main>
           <Footer /> 
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }

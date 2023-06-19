@@ -1,5 +1,5 @@
 import Subtitle from '../../components/Subtitle/Subtitle';
-import BeansLogo from '../../components/Beans-logo/Beans-logo';
+import BeansLogo from '../Beans-logo/Beans-logo';
 
 import './About.css';
 import { Fragment } from 'react';

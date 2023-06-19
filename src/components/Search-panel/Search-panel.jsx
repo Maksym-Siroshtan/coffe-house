@@ -1,5 +1,5 @@
-import Search from '../Search/Search';
-import Filter from '../Filter/Filter';
+import Search from './Search/Search';
+import Filter from './Filter/Filter';
 
 import './Search-panel.css';
 

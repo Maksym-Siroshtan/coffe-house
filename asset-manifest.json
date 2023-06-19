@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/coffe-house-app/static/css/main.a6a19558.css",
+    "main.js": "/coffe-house-app/static/js/main.4c762c52.js",
+    "static/media/our-best-bg.jpg": "/coffe-house-app/static/media/our-best-bg.e73347dac8273b8cda2a.jpg",
+    "static/media/main-bg.jpg": "/coffe-house-app/static/media/main-bg.bccd9c9f5aecec766f7f.jpg",
+    "static/media/coffe-bg.jpg": "/coffe-house-app/static/media/coffe-bg.3602fdfebe6d51af1e5d.jpg",
+    "static/media/goods-bg.jpg": "/coffe-house-app/static/media/goods-bg.ef2455d9e03f41d5a1fb.jpg",
+    "static/media/aromistico-coffe-bg.jpg": "/coffe-house-app/static/media/aromistico-coffe-bg.ac1ab1a0c921c57dbb2e.jpg",
+    "static/media/about-our-beans.jpg": "/coffe-house-app/static/media/about-our-beans.dc9ee360d87163ff99ee.jpg",
+    "static/media/aromistico-coffe.png": "/coffe-house-app/static/media/aromistico-coffe.4c831881bdeb0e226910.png",
+    "static/media/solimo-coffe.png": "/coffe-house-app/static/media/solimo-coffe.04652e2dc0d5fe1e2c12.png",
+    "static/media/presto-coffe.png": "/coffe-house-app/static/media/presto-coffe.204060d0bc63cb9ef032.png",
+    "static/media/about-goods.jpg": "/coffe-house-app/static/media/about-goods.75bdf77b5d9a601887b2.jpg",
+    "static/media/logo-white.svg": "/coffe-house-app/static/media/logo-white.0bd02978072b90a75458348df0405057.svg",
+    "static/media/logo-black.svg": "/coffe-house-app/static/media/logo-black.6ab94ad5081f503b5e8cd064e7c04e77.svg",
+    "static/media/beans-logo-white.svg": "/coffe-house-app/static/media/beans-logo-white.418f1d08ea1f6f2b836a7e5a2e64e206.svg",
+    "static/media/beans-logo-black.svg": "/coffe-house-app/static/media/beans-logo-black.7c9cc97dd3e59f892c7da5a22b23e78e.svg",
+    "index.html": "/coffe-house-app/index.html",
+    "main.a6a19558.css.map": "/coffe-house-app/static/css/main.a6a19558.css.map",
+    "main.4c762c52.js.map": "/coffe-house-app/static/js/main.4c762c52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6a19558.css",
+    "static/js/main.4c762c52.js"
+  ]
+}
